@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background = "@drawable/darkblue"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="16dp"
+        android:overScrollMode = "never">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:gravity="center"
+                android:text="Bow Combos"
+                android:paddingTop = "20dp"
+                android:paddingBottom = "20dp"
+                android:textColor="#FFFFFF"
+                android:textSize="36sp"
+                app:fontFamily="@font/erasbdfont" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="163dp"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"
+                app:srcCompat="@drawable/bow" />
+
+            <Button
+                android:id="@+id/dlight_nlight_bow"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/mybutton"
+                android:drawablePadding="2dip"
+                android:fontFamily="@font/erasbdfont"
+                android:paddingLeft="10dip"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="Dlight (Down Light Attack) + Nlight (Neutral Light Attack)"
+                android:textAllCaps="false"
+                android:textColor="@drawable/buttontextcolor"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="40dp"
+                android:text="Damage: White to Red (0 - 500 dmg)\nDexterity: Any\n\nAny distance from opponent that dlight can strike.\n After about 400 damage performing the combo at the max range of dlight will not work."
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                app:fontFamily="@font/erasbdfont" />
+
+            <Button
+                android:id="@+id/dlight_nair_bow"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/mybutton"
+                android:drawablePadding="2dip"
+                android:fontFamily="@font/erasbdfont"
+                android:paddingLeft="10dip"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="Dlight (Down Light Attack) + Nair (Neutral Air Attack)"
+                android:textAllCaps="false"
+                android:textColor="@drawable/buttontextcolor"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="40dp"
+                android:text="Damage: White to Dark Red (0 - 400 dmg)\nDexterity: Any\n\nAs damage increases nair needs to be inputed more and more to the right"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                app:fontFamily="@font/erasbdfont" />
+
+            <Button
+                android:id="@+id/dlight_sair_bow"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/mybutton"
+                android:drawablePadding="2dip"
+                android:fontFamily="@font/erasbdfont"
+                android:paddingLeft="10dip"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="Dlight (Down Light Attack) + Sair (Side Air Attack)"
+                android:textAllCaps="false"
+                android:textColor="@drawable/buttontextcolor"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="40dp"
+                android:text="Damage: White to Dark Red (0 - 400 dmg)\nDexterity: Any\n"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                app:fontFamily="@font/erasbdfont" />
+
+            <Button
+                android:id="@+id/dlight_dair_bow"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/mybutton"
+                android:drawablePadding="2dip"
+                android:fontFamily="@font/erasbdfont"
+                android:paddingLeft="10dip"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="Dlight (Down Light Attack) + Dair (Down Air Attack)"
+                android:textAllCaps="false"
+                android:textColor="@drawable/buttontextcolor"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="40dp"
+                android:text="Damage: White to Yellow (0 -  280 dmg)\nDexterity: Any"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                app:fontFamily="@font/erasbdfont" />
+
+            <Button
+                android:id="@+id/dlight_recovery_bow"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/mybutton"
+                android:drawablePadding="2dip"
+                android:fontFamily="@font/erasbdfont"
+                android:paddingLeft="10dip"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="Dlight (Down Light Attack) + Recovery"
+                android:textAllCaps="false"
+                android:textColor="@drawable/buttontextcolor"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="40dp"
+                android:text="Damage: White to Yellow (0 -  480 dmg)\nDexterity: Any\n\nBest used as a kill option for the bow anywhere from Red to Dark Red damage"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                app:fontFamily="@font/erasbdfont" />
+
+            <Button
+                android:id="@+id/nlight_nair_bow"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/mybutton"
+                android:drawablePadding="2dip"
+                android:fontFamily="@font/erasbdfont"
+                android:paddingLeft="10dip"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="Nlight (Neutral Light Attack) + Nair (Neutral Air Attack)"
+                android:textAllCaps="false"
+                android:textColor="@drawable/buttontextcolor"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="40dp"
+                android:text="Damage: White to Yellow (0 -  50 dmg)\nDexterity: Any\n\nBest used  when stacked on enemy and their very healthy"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                app:fontFamily="@font/erasbdfont" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,82 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background = "@drawable/darkblue"
+    tools:context="com.example.brawlhallaguide.Fragment2">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:gravity="center"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"
+                android:text="Lore"
+                android:textColor="#FFFFFF"
+                android:textSize="36sp"
+                app:fontFamily="@font/erasbdfont" />
+
+            <TextView
+                android:id="@+id/editText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="60dp"
+                android:editable="false"
+                android:fontFamily="@font/erasbdfont"
+                android:inputType="textMultiLine"
+                android:paddingTop="48dp"
+                android:text="&quot;Target Ada is confirmed. Suspect is armed and located at the rear of the sixth floor...and on the roof...and twice on the third floor. All units, surveillance protocols are compromised. Ignore radio communications. Set Aim Augmentation to Manual. Disregard ... (garbled) ... on sight... (garbled) ... incoming . . (garbled) ... down ... (elevator music)&quot; \n\n-Recovered from a Mobile Command Unit blackbox, MBFC"
+                android:textColor="#2F82AD"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/editText2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:editable="false"
+                android:fontFamily="@font/erasbdfont"
+                android:inputType="textMultiLine"
+                android:paddingTop="72dp"
+                android:text="Records show a precocious young Ada offered a place in the training program of Meyers Baby Food Corporation (&quot;Your Friend in Nanotech&quot;). After that, no official records of Ada exist. Part of an experimental group, Ada's public education neuro-sims were replaced with training in real-time signal decryption and urban warfare.\n\n\nGraduates of the experiment joined Meyers Baby Food Corp's black ops division, but Ada hacked the corporation's maincloud and learned her division was protecting the Upload Enslavement Initiative. Soon, records of Meyers' secret operations were playing on every news feed, and Ada had disappeared.\n\n\nIn the undersea free state of Miami Dome, Ada founded the Right Wrong Cavaliers, an elite team of combat hackers and post-punk revival band, and she led their masterful guerilla campaign against Meyers and their shadowy GovernCorp backers. She's pretty sure Valhalla is all some sort of computer sim, but until she can find a way out, she's playing to win."
+                android:textColor="#979797"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/editText3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="70dp"
+                android:layout_marginRight="60dp"
+                android:editable="false"
+                android:fontFamily="@font/erasbdfont"
+                android:inputType="textMultiLine"
+                android:paddingTop="72dp"
+                android:paddingBottom = "48dp"
+                android:text="&quot;Combat cryptography is easy. Once you can ignore the bullets and the screaming, it's just basic quantum calculus.&quot; \n\n-Ada, shouted to a recruit during a raid on GovernCorp"
+                android:textColor="#2F82AD"
+                android:textSize="20dp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</FrameLayout>

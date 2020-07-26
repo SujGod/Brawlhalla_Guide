@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout2"
+    android:layout_width="match_parent"
+    android:background = "@drawable/background"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode = "never">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/atob"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/mybutton"
+                android:drawableStart = "@drawable/adaresize"
+                android:drawableLeft = "@drawable/adaresize"
+                android:drawableEnd = "@drawable/barrazaresize"
+                android:drawableRight="@drawable/barrazaresize"
+                android:drawablePadding="2dip"
+                android:fontFamily="@font/erasbdfont"
+                android:paddingLeft="10dip"
+                android:paddingTop="10dp"
+                android:paddingRight = "10dp"
+                android:paddingBottom="10dp"
+                android:text="A - B"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@drawable/buttontextcolor"
+                android:textSize="36sp" />
+
+            <Button
+                android:id="@+id/btoc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/mybutton"
+                android:drawableStart = "@drawable/bodvarresize"
+                android:drawableLeft = "@drawable/bodvarresize"
+                android:drawableEnd = "@drawable/crossresize"
+                android:drawableRight="@drawable/crossresize"
+                android:drawablePadding="2dip"
+                android:fontFamily="@font/erasbdfont"
+                android:paddingLeft="10dip"
+                android:paddingTop="10dp"
+                android:paddingRight = "10dp"
+                android:paddingBottom="10dp"
+                android:text="B - C"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@drawable/buttontextcolor"
+                android:textSize="36sp" />
+
+            <Button
+                android:id="@+id/dtog"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/mybutton"
+                android:drawableStart = "@drawable/dianaresize"
+                android:drawableLeft = "@drawable/dianaresize"
+                android:drawableEnd = "@drawable/gnashresize"
+                android:drawableRight="@drawable/gnashresize"
+                android:drawablePadding="2dip"
+                android:fontFamily="@font/erasbdfont"
+                android:paddingLeft="10dip"
+                android:paddingTop="10dp"
+                android:paddingRight = "10dp"
+                android:paddingBottom="10dp"
+                android:text="D - G"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@drawable/buttontextcolor"
+                android:textSize="36sp" />
+
+
+            <Button
+                android:id="@+id/kton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/mybutton"
+                android:drawableStart = "@drawable/korresize"
+                android:drawableLeft = "@drawable/korresize"
+                android:drawableEnd = "@drawable/nixresize"
+                android:drawableRight="@drawable/nixresize"
+                android:drawablePadding="2dip"
+                android:fontFamily="@font/erasbdfont"
+                android:paddingLeft="10dip"
+                android:paddingTop="10dp"
+                android:paddingRight = "10dp"
+                android:paddingBottom="10dp"
+                android:text="K - N"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@drawable/buttontextcolor"
+                android:textSize="36sp" />
+
+            <Button
+                android:id="@+id/otos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/mybutton"
+                android:drawableStart = "@drawable/orionresize"
+                android:drawableLeft = "@drawable/orionresize"
+                android:drawableEnd = "@drawable/scarletresize"
+                android:drawableRight="@drawable/scarletresize"
+                android:drawablePadding="2dip"
+                android:fontFamily="@font/erasbdfont"
+                android:paddingLeft="10dip"
+                android:paddingTop="10dp"
+                android:paddingRight = "10dp"
+                android:paddingBottom="10dp"
+                android:text="O - S"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@drawable/buttontextcolor"
+                android:textSize="36sp" />
+
+            <Button
+                android:id="@+id/stov"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/mybutton"
+                android:drawableStart = "@drawable/sentinelresize"
+                android:drawableLeft = "@drawable/sentinelresize"
+                android:drawableEnd = "@drawable/valresize"
+                android:drawableRight="@drawable/valresize"
+                android:drawablePadding="2dip"
+                android:fontFamily="@font/erasbdfont"
+                android:paddingLeft="10dip"
+                android:paddingTop="10dp"
+                android:paddingRight = "10dp"
+                android:paddingBottom="10dp"
+                android:text="S - V"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@drawable/buttontextcolor"
+                android:textSize="36sp" />
+
+            <Button
+                android:id="@+id/vtoz"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/mybutton"
+                android:drawableStart = "@drawable/vectorresize"
+                android:drawableLeft = "@drawable/vectorresize"
+                android:drawableEnd = "@drawable/zarielresize"
+                android:drawableRight="@drawable/zarielresize"
+                android:drawablePadding="2dip"
+                android:fontFamily="@font/erasbdfont"
+                android:paddingLeft="10dip"
+                android:paddingTop="10dp"
+                android:paddingRight = "10dp"
+                android:paddingBottom="10dp"
+                android:text="V - Z"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@drawable/buttontextcolor"
+                android:textSize="36sp" />
+
+            <Button
+                android:id="@+id/Jaeyun"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/mybutton"
+                android:drawableStart = "@drawable/jaeyunresize"
+                android:drawableLeft = "@drawable/jaeyunresize"
+                android:drawablePadding="2dip"
+                android:fontFamily="@font/erasbdfont"
+                android:paddingLeft="10dip"
+                android:paddingTop="10dp"
+                android:paddingRight = "10dp"
+                android:paddingBottom="10dp"
+                android:text="Jaeyun"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@drawable/buttontextcolor"
+                android:textSize="36sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

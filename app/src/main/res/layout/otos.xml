@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background = "@drawable/darkblue"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="410dp"
+        android:layout_height="141dp"
+        android:fontFamily="@font/erasbdfont"
+        android:gravity="center"
+        android:text="Characters\nOrion - Sentinel"
+        android:textColor="#FFFFFF"
+        android:textSize="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/adaButton"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginRight="48dp"
+        android:background="@drawable/mybutton"
+        app:layout_constraintEnd_toStartOf="@+id/artemisButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView11"
+        app:srcCompat="@drawable/orionresize" />
+
+    <ImageButton
+        android:id="@+id/artemisButton"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginRight="48dp"
+        android:background="@drawable/mybutton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/adaButton"
+        app:layout_constraintTop_toBottomOf="@+id/textView11"
+        app:srcCompat="@drawable/petraresize" />
+
+    <ImageButton
+        android:id="@+id/asuriButton"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/mybutton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/adaButton"
+        app:srcCompat="@drawable/ragnirresize" />
+
+    <ImageButton
+        android:id="@+id/azothButton"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+
+        android:layout_marginTop="80dp"
+        android:background="@drawable/mybutton"
+        app:layout_constraintEnd_toStartOf="@+id/barazzaButton"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toEndOf="@+id/asuriButton"
+        app:layout_constraintTop_toBottomOf="@+id/adaButton"
+        app:srcCompat="@drawable/raymanresize" />
+
+    <ImageButton
+        android:id="@+id/barazzaButton"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/mybutton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/artemisButton"
+        app:srcCompat="@drawable/sirrolandresize" />
+
+    <ImageButton
+        android:id="@+id/emberButton"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="48dp"
+
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/mybutton"
+        app:layout_constraintEnd_toStartOf="@+id/faitButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/azothButton"
+        app:srcCompat="@drawable/scarletresize" />
+
+    <ImageButton
+        android:id="@+id/faitButton"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+
+        android:layout_marginStart="48dp"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginRight="48dp"
+        android:background="@drawable/mybutton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/emberButton"
+        app:layout_constraintTop_toBottomOf="@+id/azothButton"
+        app:srcCompat="@drawable/sentinelresize" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

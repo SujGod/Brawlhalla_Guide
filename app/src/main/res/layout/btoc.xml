@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background = "@drawable/darkblue"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="410dp"
+        android:layout_height="141dp"
+        android:fontFamily="@font/erasbdfont"
+        android:gravity="center"
+        android:text="Characters\nAda - Brynn"
+        android:textColor="#FFFFFF"
+        android:textSize="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/bodvarButton"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="48dp"
+        android:background="@drawable/mybutton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView11"
+        app:srcCompat="@drawable/bodvarresize" />
+
+    <ImageButton
+        android:id="@+id/brynnButton"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginRight="48dp"
+        android:background="@drawable/mybutton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView11"
+        app:srcCompat="@drawable/brynnresize" />
+
+    <ImageButton
+        android:id="@+id/caspianButton"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:background="@drawable/mybutton"
+        app:layout_constraintBottom_toTopOf="@+id/cassidyButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bodvarButton"
+        app:srcCompat="@drawable/caspianresize" />
+
+    <ImageButton
+        android:id="@+id/cassidyButton"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginLeft="48dp"
+        android:layout_marginBottom="48dp"
+        android:background="@drawable/mybutton"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/cassidyresize" />
+
+    <ImageButton
+        android:id="@+id/crossButton"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+
+        android:layout_marginEnd="48dp"
+        android:layout_marginRight="48dp"
+        android:layout_marginBottom="48dp"
+        android:background="@drawable/mybutton"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/crossresize" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

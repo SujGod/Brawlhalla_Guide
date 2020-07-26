@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:fadingEdge="horizontal|vertical"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/combosButton"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="100dp"
+        android:text="Combos"
+        android:fontFamily="@font/erasbdfont"
+        android:background = "@drawable/mybutton"
+        android:textColor="@drawable/buttontextcolor"
+        android:textColorHighlight="#00696060"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/aboutButton"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:text="About"
+        android:fontFamily="@font/erasbdfont"
+        android:background = "@drawable/mybutton"
+        android:textColor="@drawable/buttontextcolor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/optionsButton" />
+
+    <Button
+        android:id="@+id/optionsButton"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:text="Options"
+        android:fontFamily="@font/erasbdfont"
+        android:background = "@drawable/mybutton"
+        android:textColor="@drawable/buttontextcolor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/charactersButton" />
+
+    <Button
+        android:id="@+id/charactersButton"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:text="Characters"
+        android:fontFamily="@font/erasbdfont"
+        android:background = "@drawable/mybutton"
+        android:textColor="@drawable/buttontextcolor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/combosButton" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="345dp"
+        android:layout_height="98dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:fontFamily="@font/erasbdxml"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="GUIDE"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="36sp"
+        android:textStyle="normal|bold"
+        app:fontFamily="@font/erasbdxml"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="409dp"
+        android:layout_height="199dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/logo"
+        tools:layout_editor_absoluteY="-39dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.brawlhallaguide">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+    <application
+        android:allowBackup="true"
+        android:name = ".App"
+        android:icon="@mipmap/iconbrawl"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Characters"/>
+        <activity android:name=".About" />
+        <activity android:name=".Combos" />
+        <activity android:name = ".Blasters"
+            android:theme = "@style/InfoTheme"/>
+        <activity android:name = ".BlastersDlightSairVideo"
+            android:theme = "@style/InfoTheme"/>
+        <activity android:name=".BlastersDlightSlightVideo"
+            android:theme = "@style/InfoTheme"/>
+        <activity android:name=".BlastersDlightRecoveryVideo"
+            android:theme = "@style/InfoTheme"/>
+        <activity android:name=".BlastersDlightDairVideo"
+            android:theme = "@style/InfoTheme"/>
+        <activity android:name=".BlastersSairNlightVideo"
+            android:theme = "@style/InfoTheme"/>
+        <activity android:name=".BlastersSairDlightVideo"
+            android:theme = "@style/InfoTheme"/>
+        <activity android:name=".Axe"
+            android:theme = "@style/InfoTheme"/>
+        <activity android:name=".AxeSlightDlightVideo"
+            android:theme = "@style/InfoTheme"/>
+        <activity android:name=".AxeSlightNairVideo"
+            android:theme = "@style/InfoTheme"/>
+        <activity android:name=".AxeSlightSairVideo"
+            android:theme = "@style/InfoTheme"/>
+        <activity android:name=".AxeSlightDairVideo"
+            android:theme = "@style/InfoTheme"/>
+        <activity android:name=".Bow"
+            android:theme = "@style/InfoTheme"/>
+        <activity android:name=".BowDlightDairVideo"
+            android:theme = "@style/InfoTheme"/>
+        <activity android:name=".BowDlightNairVideo"
+            android:theme = "@style/InfoTheme"/>
+        <activity android:name=".BowDlightNlightVideo"
+            android:theme = "@style/InfoTheme"/>
+        <activity android:name=".BowDlightRecoveryVideo"
+            android:theme = "@style/InfoTheme"/>
+        <activity android:name=".BowDlightSairVideo"
+            android:theme = "@style/InfoTheme"/>
+        <activity android:name=".BowNlightNairVideo"
+            android:theme = "@style/InfoTheme"/>
+        <activity android:name=".Lance"
+            android:theme = "@style/InfoTheme"/>
+        <activity android:name=".LanceSlightNairVideo"
+            android:theme = "@style/InfoTheme"/>
+        <activity android:name=".LanceSlightDairVideo"
+            android:theme = "@style/InfoTheme"/>
+        <activity android:name=".LanceSlightGCNlight"
+            android:theme = "@style/InfoTheme"/>
+        <activity android:name=".LanceNlightDashDlightVideo"
+            android:theme = "@style/InfoTheme"/>
+        <activity android:name=".LanceSlightRecoveryVideo"
+            android:theme = "@style/InfoTheme"/>
+        <activity android:name=".LanceSlightSairVideo"
+            android:theme = "@style/InfoTheme"/>
+        <activity android:name=".Sword"
+            android:theme = "@style/InfoTheme"/>
+        <activity android:name=".SwordDlightJmpDair"
+            android:theme = "@style/InfoTheme"/>
+        <activity android:name=".SwordDlightJmpGCNlight"
+            android:theme = "@style/InfoTheme"/>
+        <activity android:name=".SwordDlightJmpGCSlight"
+            android:theme = "@style/InfoTheme"/>
+        <activity android:name=".SwordDlightJmpSair"
+            android:theme = "@style/InfoTheme"/>
+        <activity android:name=".SwordDlightRecovery"
+            android:theme = "@style/InfoTheme"/>
+        <activity android:name=".SwordDlightNair"
+            android:theme = "@style/InfoTheme"/>
+        <activity android:name=".Cannon"
+            android:theme = "@style/InfoTheme"/>
+        <activity android:name=".CannonDlightDairVideo"
+            android:theme = "@style/InfoTheme"/>
+        <activity android:name=".CannonDlightNairVideo" android:theme = "@style/InfoTheme"/>
+        <activity android:name=".CannonDlightSairVideo" android:theme = "@style/InfoTheme"/>
+        <activity android:name=".CannonSairSlightVideo" android:theme = "@style/InfoTheme"/>
+        <activity android:name=".CannonSlightSairVideo" android:theme = "@style/InfoTheme"/>
+        <activity android:name=".CannonSlightDairVideo" android:theme = "@style/InfoTheme"/>
+        <activity android:name=".Orb" android:theme = "@style/InfoTheme"/>
+        <activity android:name=".OrbDairNlightVideo" android:theme = "@style/InfoTheme"/>
+        <activity android:name=".OrbDairSlightVideo" android:theme = "@style/InfoTheme"/>
+        <activity android:name=".OrbDlightNairVideo"  android:theme = "@style/InfoTheme"/>
+        <activity android:name=".OrbDlightGCNlightVideo" android:theme = "@style/InfoTheme"/>
+        <activity android:name=".OrbDlightGCSlightVideo" android:theme = "@style/InfoTheme"/>
+        <activity android:name=".OrbNlightSlightVideo" android:theme = "@style/InfoTheme"/>
+        <activity android:name=".OrbJmpGCSlightNairVideo" android:theme = "@style/InfoTheme"/>
+        <activity android:name=".OrbSlightDlightVideo" android:theme = "@style/InfoTheme"/>
+        <activity android:name=".OrbSlightSairVideo" android:theme = "@style/InfoTheme"/>
+        <activity android:name=".Options" />
+        <activity android:name=".CharactersAtoB"/>
+        <activity android:name=".Spear" android:theme = "@style/InfoTheme"/>
+        <activity android:name=".SpearDlightDodgeGroundPoundVideo" android:theme = "@style/InfoTheme"/>
+        <activity android:name=".SpearDlightGCDlightVideo" android:theme = "@style/InfoTheme"/>
+        <activity android:name=".SpearDlightNairVideo" android:theme = "@style/InfoTheme"/>
+        <activity android:name=".SpearDlightRecoveryVideo" android:theme = "@style/InfoTheme"/>
+        <activity android:name=".SpearDlightSairVideo" android:theme = "@style/InfoTheme"/>
+        <activity android:name=".SpearNlightDashSlightVideo" android:theme = "@style/InfoTheme"/>
+        <activity android:name=".SpearSairNlightVideo" android:theme = "@style/InfoTheme"/>
+        <activity android:name=".SpearSlightDlightVideo" android:theme = "@style/InfoTheme"/>
+        <activity android:name=".Unarmed" android:theme = "@style/InfoTheme"/>
+        <activity android:name=".UnarmedDlightDairVideo" android:theme = "@style/InfoTheme"/>
+        <activity android:name=".UnarmedDlightGroundPoundVideo" android:theme = "@style/InfoTheme"/>
+        <activity android:name=".UnarmedDlightJmpGCDlightVideo" android:theme = "@style/InfoTheme"/>
+        <activity android:name=".UnarmedDlightJmpGCNlightVideo" android:theme = "@style/InfoTheme"/>
+        <activity android:name=".UnarmedDashSlightNlightVideo" android:theme = "@style/InfoTheme"/>
+        <activity android:name=".UnarmedDlightSairVideo" android:theme = "@style/InfoTheme"/>
+        <activity android:name=".UnarmedDlightNairVideo" android:theme = "@style/InfoTheme"/>
+        <activity android:name=".UnarmedDlightJmpGCDsigVideo" android:theme = "@style/InfoTheme"/>
+        <activity android:name=".UnarmedDlightJmpGCNsigVideo" android:theme = "@style/InfoTheme"/>
+        <activity android:name=".UnarmedDlightJmpGCSlightVideo" android:theme = "@style/InfoTheme"/>
+        <activity android:name=".UnarmedDlightRecoveryVideo" android:theme = "@style/InfoTheme"/>
+        <activity android:name=".UnarmedSairNlightVideo" android:theme = "@style/InfoTheme"/>
+        <activity android:name=".Hammer" android:theme = "@style/InfoTheme"/>
+        <activity android:name=".HammerDlightDairVideo" android:theme = "@style/InfoTheme"/>
+        <activity android:name=".HammerDlightDodgeDairVideo" android:theme = "@style/InfoTheme"/>
+        <activity android:name=".HammerDlightDodgeRecoveryVideo" android:theme = "@style/InfoTheme"/>
+        <activity android:name=".HammerDlightJmpGCNlightVideo" android:theme = "@style/InfoTheme"/>
+        <activity android:name=".HammerDlightNairVideo" android:theme = "@style/InfoTheme"/>
+        <activity android:name=".HammerDlightSairVideo" android:theme = "@style/InfoTheme"/>
+        <activity android:name=".HammerDlightSlightVideo" android:theme = "@style/InfoTheme"/>
+        <activity android:name=".Ada" android:theme = "@style/InfoTheme"/>
+        <activity android:name=".AdaStats"/>
+    </application>
+
+</manifest>

@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background = "@drawable/darkblue"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode = "never">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:gravity="center"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"
+                android:text="Katars Combos"
+                android:textColor="#FFFFFF"
+                android:textSize="36sp"
+                app:fontFamily="@font/erasbdfont" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="163dp"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"
+                app:srcCompat="@drawable/katars" />
+
+            <Button
+                android:id="@+id/katars_slight_nlight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/mybutton"
+                android:drawablePadding="2dip"
+                android:fontFamily="@font/erasbdfont"
+                android:paddingLeft="10dip"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="Slight (Side Light Attack) + Nlight (Neutral Light Attack)"
+                android:textAllCaps="false"
+                android:textColor="@drawable/buttontextcolor"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="40dp"
+                android:text="Damage: White to Light Orange (0 - 60 dmg)\nDexterity: Any\n\nSlight has to be inputed stacked on the opponent"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                app:fontFamily="@font/erasbdfont" />
+
+            <Button
+                android:id="@+id/katars_slight_dash_dlight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/mybutton"
+                android:drawablePadding="2dip"
+                android:fontFamily="@font/erasbdfont"
+                android:paddingLeft="10dip"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="Slight (Side Light Attack) + Dash + Dlight (Down Light Attack)"
+                android:textAllCaps="false"
+                android:textColor="@drawable/buttontextcolor"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="40dp"
+                android:text="Damage: White to Red (0 - 160 dmg)\nDexterity: Any"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                app:fontFamily="@font/erasbdfont" />
+
+            <Button
+                android:id="@+id/katars_dair_dlight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/mybutton"
+                android:drawablePadding="2dip"
+                android:fontFamily="@font/erasbdfont"
+                android:paddingLeft="10dip"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="Dair (Down Air Attack) + Dlight (Down Light Attack)"
+                android:textAllCaps="false"
+                android:textColor="@drawable/buttontextcolor"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textView5123"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="40dp"
+                android:text="Damage: White to Orange (0 - 100 dmg)\nDexterity: Any"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                app:fontFamily="@font/erasbdfont" />
+
+            <Button
+                android:id="@+id/katars_nlight_dlight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/mybutton"
+                android:drawablePadding="2dip"
+                android:fontFamily="@font/erasbdfont"
+                android:paddingLeft="10dip"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="Nlight (Neutral Light Attack) + Dlight (Down Light Attack)"
+                android:textAllCaps="false"
+                android:textColor="@drawable/buttontextcolor"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textView9123"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="40dp"
+                android:text="Damage: All Health/Damage\nDexterity: Any\n\nAt the lowest dexterity the combo hits with a dodge window of 3 frames. With higher dexterity the dodge window increases."
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                app:fontFamily="@font/erasbdfont" />
+
+            <Button
+                android:id="@+id/katars_dlight_nair"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/mybutton"
+                android:drawablePadding="2dip"
+                android:fontFamily="@font/erasbdfont"
+                android:paddingLeft="10dip"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="Dlight (Down Light Attack) + Nair (Neutral Air Attack)"
+                android:textAllCaps="false"
+                android:textColor="@drawable/buttontextcolor"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="40dp"
+                android:text="Damage: All Health/Damage\nDexterity: Any\n\nAt the lowest dexterity the combo hits with a dodge window of 5 frames. With higher dexterity the dodge window increases."
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                app:fontFamily="@font/erasbdfont" />
+
+            <Button
+                android:id="@+id/katars_dlight_recovery"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/mybutton"
+                android:drawablePadding="2dip"
+                android:fontFamily="@font/erasbdfont"
+                android:paddingLeft="10dip"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="Dlight (Down Light Attack) + Recovery"
+                android:textAllCaps="false"
+                android:textColor="@drawable/buttontextcolor"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="40dp"
+                android:text="Damage: All Health/Damage\nDexterity: Any\n\nAt the lowest dexterity the combo hits with a dodge window of 4 frames. With higher dexterity the dodge window increases."
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                app:fontFamily="@font/erasbdfont" />
+
+            <Button
+                android:id="@+id/katars_dlight_jmp_dair"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/mybutton"
+                android:drawablePadding="2dip"
+                android:fontFamily="@font/erasbdfont"
+                android:paddingLeft="10dip"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="Dlight (Down Light Attack) + Jump + Dair (Down Air Attack)"
+                android:textAllCaps="false"
+                android:textColor="@drawable/buttontextcolor"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="40dp"
+                android:text="Damage: All Health/Damage\nDexterity: Any\n\nAt the lowest dexterity the combo hits with a dodge window of 4 frames. With higher dexterity the dodge window increases."
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                app:fontFamily="@font/erasbdfont" />
+
+            <Button
+                android:id="@+id/katars_dlight_jmp_revdair"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/mybutton"
+                android:drawablePadding="2dip"
+                android:fontFamily="@font/erasbdfont"
+                android:paddingLeft="10dip"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="Dlight (Down Light Attack) + Jump + Reverse Dair (Down Air Attack)"
+                android:textAllCaps="false"
+                android:textColor="@drawable/buttontextcolor"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="40dp"
+                android:text="Damage: All Health/Damage\nDexterity: Any\n\nAt the lowest dexterity the combo hits with a dodge window of 4 frames. With higher dexterity the dodge window increases."
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                app:fontFamily="@font/erasbdfont" />
+
+            <Button
+                android:id="@+id/katars_slight_jmp_dair"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/mybutton"
+                android:drawablePadding="2dip"
+                android:fontFamily="@font/erasbdfont"
+                android:paddingLeft="10dip"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="Slight (Side Light Attack) + Jump + Dair (Down Air Attack)"
+                android:textAllCaps="false"
+                android:textColor="@drawable/buttontextcolor"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textView93"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="40dp"
+                android:text="Damage: White to Red (0 - 140 dmg)\nDexterity: Any\n\nAt the lowest damage and/or dexterity the combo hits with a dodge window of 4 frames. With higher dexterity and/or damage the dodge window increases."
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                app:fontFamily="@font/erasbdfont" />
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

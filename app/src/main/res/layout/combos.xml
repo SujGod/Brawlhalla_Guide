@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout2"
+    android:layout_width="match_parent"
+    android:background = "@drawable/background"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode = "never">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/axe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/mybutton"
+                android:drawableStart="@drawable/axe"
+                android:drawableLeft="@drawable/axe"
+                android:drawablePadding="2dip"
+                android:fontFamily="@font/erasbdfont"
+                android:paddingLeft="10dip"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="Axe"
+                android:textAllCaps="false"
+                android:textColor="@drawable/buttontextcolor"
+                android:textSize="36sp" />
+
+            <Button
+                android:id="@+id/blasters"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/mybutton"
+                android:drawableStart="@drawable/blasters"
+                android:drawableLeft="@drawable/blasters"
+                android:drawablePadding="2dip"
+                android:fontFamily="@font/erasbdfont"
+                android:paddingLeft="10dip"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="Blasters"
+                android:textAllCaps="false"
+                android:textColor="@drawable/buttontextcolor"
+                android:textSize="36sp" />
+
+            <Button
+                android:id="@+id/bow"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/mybutton"
+                android:drawableStart="@drawable/bow"
+                android:drawableLeft="@drawable/bow"
+                android:drawablePadding="2dip"
+                android:fontFamily="@font/erasbdfont"
+                android:paddingLeft="10dip"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="Bow"
+                android:textAllCaps="false"
+                android:textColor="@drawable/buttontextcolor"
+                android:textSize="36sp" />
+
+            <Button
+                android:id="@+id/cannon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/mybutton"
+                android:drawableStart="@drawable/cannon"
+                android:drawableLeft="@drawable/cannon"
+                android:drawablePadding="2dip"
+                android:fontFamily="@font/erasbdfont"
+                android:paddingLeft="10dip"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="Cannon"
+                android:textAllCaps="false"
+                android:textColor="@drawable/buttontextcolor"
+                android:textSize="36sp" />
+
+            <Button
+                android:id="@+id/gauntlets"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/mybutton"
+                android:drawableStart="@drawable/gauntlets"
+                android:drawableLeft="@drawable/gauntlets"
+                android:drawablePadding="2dip"
+                android:fontFamily="@font/erasbdfont"
+                android:paddingLeft="10dip"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="Gauntlets"
+                android:textAllCaps="false"
+                android:textColor="@drawable/buttontextcolor"
+                android:textSize="36sp" />
+
+            <Button
+                android:id="@+id/hammer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/mybutton"
+                android:drawableStart="@drawable/hammer"
+                android:drawableLeft="@drawable/hammer"
+                android:drawablePadding="2dip"
+                android:fontFamily="@font/erasbdfont"
+                android:paddingLeft="10dip"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="Hammer"
+                android:textAllCaps="false"
+                android:textColor="@drawable/buttontextcolor"
+                android:textSize="36sp" />
+
+            <Button
+                android:id="@+id/orb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/mybutton"
+                android:drawableStart="@drawable/orb"
+                android:drawableLeft="@drawable/orb"
+                android:drawablePadding="2dip"
+                android:fontFamily="@font/erasbdfont"
+                android:paddingLeft="10dip"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="Orb"
+                android:textAllCaps="false"
+                android:textColor="@drawable/buttontextcolor"
+                android:textSize="36sp" />
+
+            <Button
+                android:id="@+id/katars"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/mybutton"
+                android:drawableStart="@drawable/katars"
+                android:drawableLeft="@drawable/katars"
+                android:drawablePadding="2dip"
+                android:fontFamily="@font/erasbdfont"
+                android:paddingLeft="10dip"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="Katars"
+                android:textAllCaps="false"
+                android:textColor="@drawable/buttontextcolor"
+                android:textSize="36sp" />
+
+            <Button
+                android:id="@+id/lance"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/mybutton"
+                android:drawableStart="@drawable/lance"
+                android:drawableLeft="@drawable/lance"
+                android:drawablePadding="2dip"
+                android:fontFamily="@font/erasbdfont"
+                android:paddingLeft="10dip"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="Lance"
+                android:textAllCaps="false"
+                android:textColor="@drawable/buttontextcolor"
+                android:textSize="36sp" />
+
+            <Button
+                android:id="@+id/scythe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/mybutton"
+                android:drawableStart="@drawable/scythe"
+                android:drawableLeft="@drawable/scythe"
+                android:drawablePadding="2dip"
+                android:fontFamily="@font/erasbdfont"
+                android:paddingLeft="10dip"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="Scythe"
+                android:textAllCaps="false"
+                android:textColor="@drawable/buttontextcolor"
+                android:textSize="36sp" />
+
+            <Button
+                android:id="@+id/spear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/mybutton"
+                android:drawableStart="@drawable/spear"
+                android:drawableLeft="@drawable/spear"
+                android:drawablePadding="2dip"
+                android:fontFamily="@font/erasbdfont"
+                android:paddingLeft="10dip"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="Spear"
+                android:textAllCaps="false"
+                android:textColor="@drawable/buttontextcolor"
+                android:textSize="36sp" />
+
+            <Button
+                android:id="@+id/sword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/mybutton"
+                android:drawableStart="@drawable/sword"
+                android:drawableLeft="@drawable/sword"
+                android:drawablePadding="2dip"
+                android:fontFamily="@font/erasbdfont"
+                android:paddingLeft="10dip"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="Sword"
+                android:textAllCaps="false"
+                android:textColor="@drawable/buttontextcolor"
+                android:textSize="36sp" />
+
+            <Button
+                android:id="@+id/unarmed"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/mybutton"
+                android:drawableStart="@drawable/unarmed"
+                android:drawableLeft="@drawable/unarmed"
+                android:drawablePadding="2dip"
+                android:fontFamily="@font/erasbdfont"
+                android:paddingLeft="10dip"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="Unarmed"
+                android:textAllCaps="false"
+                android:textColor="@drawable/buttontextcolor"
+                android:textSize="36sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,302 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/darkblue"
+    tools:context="com.example.brawlhallaguide.Fragment3">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/erasbdfont"
+                android:gravity="center"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"
+                android:text="Extra Info"
+                android:textColor="#FFFFFF"
+                android:textSize="36sp" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="48dp"
+                android:layout_marginLeft="48dp"
+                android:fontFamily="@font/erasbdfont"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"
+                android:text="Weapons"
+                android:textColor="#2196F3"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/blastersAda"
+                android:layout_width="315dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="48dp"
+                android:layout_marginLeft="48dp"
+                android:layout_marginEnd="48dp"
+                android:layout_marginRight="48dp"
+                android:background="@drawable/mybutton"
+                android:drawableStart="@drawable/blasters"
+                android:drawableLeft="@drawable/blasters"
+                android:drawablePadding="2dip"
+                android:fontFamily="@font/erasbdfont"
+                android:paddingLeft="10dip"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="Blasters"
+                android:textAllCaps="false"
+                android:textColor="@drawable/buttontextcolor"
+                android:textSize="36sp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/erasbdfont"
+                android:gravity="left"
+                android:paddingTop="40dp"
+                android:layout_marginStart="48dp"
+                android:layout_marginLeft="48dp"
+                android:paddingBottom="5dp"
+                android:text="Neutral Signature"
+                android:textColor="#979797"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/erasbdfont"
+                android:gravity="left"
+                android:layout_marginStart="48dp"
+                android:layout_marginLeft="48dp"
+                android:layout_marginRight="48dp"
+                android:layout_marginEnd = "48dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="20dp"
+                android:text="Ada performs a high flying front-flip with a twist, carrying her forward slightly, and fires her blasters at the ground beneath her while she is airborne. If there is no ground under where Ada will fire, the blasts go down slightly farther and have a larger blast zone. Carries Ada forward a good distance."
+                android:textColor="#979797"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/erasbdfont"
+                android:gravity="left"
+                android:paddingTop="40dp"
+                android:layout_marginStart="48dp"
+                android:layout_marginLeft="48dp"
+                android:paddingBottom="5dp"
+                android:text="Side Signature"
+                android:textColor="#979797"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/erasbdfont"
+                android:gravity="left"
+                android:layout_marginStart="48dp"
+                android:layout_marginLeft="48dp"
+                android:layout_marginRight="48dp"
+                android:layout_marginEnd = "48dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="20dp"
+                android:text="Ada points both blasters ahead of her and fires six shots off in rapid succession (3 from each blaster) directly ahead."
+                android:textColor="#979797"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/erasbdfont"
+                android:gravity="left"
+                android:paddingTop="40dp"
+                android:layout_marginStart="48dp"
+                android:layout_marginLeft="48dp"
+                android:paddingBottom="5dp"
+                android:text="Down Signature"
+                android:textColor="#979797"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/erasbdfont"
+                android:gravity="left"
+                android:layout_marginStart="48dp"
+                android:layout_marginLeft="48dp"
+                android:layout_marginRight="48dp"
+                android:layout_marginEnd = "48dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="20dp"
+                android:text="	Ada leaps backwards in what looks like slow-motion while firing one shot from each of her blasters ahead of her, following up with an immense double-blast that billows out to ahead of where she was initially standing."
+                android:textColor="#979797"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/spearAda"
+                android:layout_width="315dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop = "60dp"
+                android:layout_marginStart="48dp"
+                android:layout_marginLeft="48dp"
+                android:layout_marginEnd="48dp"
+                android:layout_marginRight="48dp"
+                android:background="@drawable/mybutton"
+                android:drawableStart="@drawable/spear"
+                android:drawableLeft="@drawable/spear"
+                android:drawablePadding="2dip"
+                android:fontFamily="@font/erasbdfont"
+                android:paddingLeft="10dip"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="Spear"
+                android:textAllCaps="false"
+                android:textColor="@drawable/buttontextcolor"
+                android:textSize="36sp" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/erasbdfont"
+                android:gravity="left"
+                android:paddingTop="40dp"
+                android:layout_marginStart="48dp"
+                android:layout_marginLeft="48dp"
+                android:paddingBottom="5dp"
+                android:text="Neutral Signature"
+                android:textColor="#979797"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/erasbdfont"
+                android:gravity="left"
+                android:layout_marginStart="48dp"
+                android:layout_marginLeft="48dp"
+                android:layout_marginRight="48dp"
+                android:layout_marginEnd = "48dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="20dp"
+                android:text="A upwards leap forward into the air is punctuated by a vicious, upwards circular spin with the spear, followed by a broader downwards swipe in an arc."
+                android:textColor="#979797"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/erasbdfont"
+                android:gravity="left"
+                android:paddingTop="40dp"
+                android:layout_marginStart="48dp"
+                android:layout_marginLeft="48dp"
+                android:paddingBottom="5dp"
+                android:text="Side Signature"
+                android:textColor="#979797"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/erasbdfont"
+                android:gravity="left"
+                android:layout_marginStart="48dp"
+                android:layout_marginLeft="48dp"
+                android:layout_marginRight="48dp"
+                android:layout_marginEnd = "48dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="20dp"
+                android:text="A quick forward horizontal swipe with the spear. Ada takes a short step forward as she does this."
+                android:textColor="#979797"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/erasbdfont"
+                android:gravity="left"
+                android:paddingTop="40dp"
+                android:layout_marginStart="48dp"
+                android:layout_marginLeft="48dp"
+                android:paddingBottom="5dp"
+                android:text="Down Signature"
+                android:textColor="#979797"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/erasbdfont"
+                android:gravity="left"
+                android:layout_marginStart="48dp"
+                android:layout_marginLeft="48dp"
+                android:layout_marginRight="48dp"
+                android:layout_marginEnd = "48dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="20dp"
+                android:text="Ada whirls her spear once horizontally around herself, then drops and spins on her back breakdance-style and spinning it again over her head.	"
+                android:textColor="#979797"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView40"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="48dp"
+                android:layout_marginLeft="48dp"
+                android:layout_marginTop = "60dp"
+                android:fontFamily="@font/erasbdfont"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"
+                android:text="Price of Character"
+                android:textColor="#2196F3"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView80"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/erasbdfont"
+                android:gravity="left"
+                android:layout_marginStart="48dp"
+                android:layout_marginLeft="48dp"
+                android:layout_marginRight="48dp"
+                android:layout_marginEnd = "48dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="50dp"
+                android:text="3900 Gold Coins"
+                android:textColor="#FFC107"
+                android:textSize="16sp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background = "@drawable/darkblue"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="16dp"
+        android:overScrollMode = "never">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:gravity="center"
+                android:text="Unarmed Combos"
+                android:paddingTop = "20dp"
+                android:paddingBottom = "20dp"
+                android:textColor="#FFFFFF"
+                android:textSize="36sp"
+                app:fontFamily="@font/erasbdfont" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="163dp"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"
+                app:srcCompat="@drawable/unarmed" />
+
+            <Button
+                android:id="@+id/unarmed_sair_nlight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/mybutton"
+                android:drawablePadding="2dip"
+                android:fontFamily="@font/erasbdfont"
+                android:paddingLeft="10dip"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="Sair (Side Air Attack) + Nlight (Neutral Light Attack)"
+                android:textAllCaps="false"
+                android:textColor="@drawable/buttontextcolor"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="40dp"
+                android:text="Damage: White to Yellow (0 - 40 dmg)\nDexterity: 8+\n\nThe combo is executed with a falling sair leading into an nlight"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                app:fontFamily="@font/erasbdfont" />
+
+            <Button
+                android:id="@+id/unarmed_dash_slight_nlight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/mybutton"
+                android:drawablePadding="2dip"
+                android:fontFamily="@font/erasbdfont"
+                android:paddingLeft="10dip"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="Dash + Slight (Side Light Attack) + Nlight (Neutral Light Attack)"
+                android:textAllCaps="false"
+                android:textColor="@drawable/buttontextcolor"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="40dp"
+                android:text="Damage: White to Yellow (0 - 50 dmg)\nDexterity: 5+"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                app:fontFamily="@font/erasbdfont" />
+
+            <Button
+                android:id="@+id/unarmed_dlight_nair"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/mybutton"
+                android:drawablePadding="2dip"
+                android:fontFamily="@font/erasbdfont"
+                android:paddingLeft="10dip"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="Dlight (Down Light Attack) + Nair (Neutral Air Attack)"
+                android:textAllCaps="false"
+                android:textColor="@drawable/buttontextcolor"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="40dp"
+                android:text="Damage: White to Dark Red (0 - 350 dmg)\nDexterity: Any"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                app:fontFamily="@font/erasbdfont" />
+
+            <Button
+                android:id="@+id/unarmed_dlight_sair"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/mybutton"
+                android:drawablePadding="2dip"
+                android:fontFamily="@font/erasbdfont"
+                android:paddingLeft="10dip"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="Dlight (Down Light Attack) + Sair (Side Air Attack)"
+                android:textAllCaps="false"
+                android:textColor="@drawable/buttontextcolor"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="40dp"
+                android:text="Damage: White to Dark Red (0 - 300 dmg)\nDexterity: Any"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                app:fontFamily="@font/erasbdfont" />
+
+            <Button
+                android:id="@+id/unarmed_dlight_recovery"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/mybutton"
+                android:drawablePadding="2dip"
+                android:fontFamily="@font/erasbdfont"
+                android:paddingLeft="10dip"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="Dlight (Down Light Attack) + Recovery"
+                android:textAllCaps="false"
+                android:textColor="@drawable/buttontextcolor"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="40dp"
+                android:text="Damage: White to Dark Red (0 - 500 dmg)\nDexterity: Any"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                app:fontFamily="@font/erasbdfont" />
+
+            <Button
+                android:id="@+id/unarmed_dlight_gp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/mybutton"
+                android:drawablePadding="2dip"
+                android:fontFamily="@font/erasbdfont"
+                android:paddingLeft="10dip"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="Dlight (Down Light Attack) + Ground Pound"
+                android:textAllCaps="false"
+                android:textColor="@drawable/buttontextcolor"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="40dp"
+                android:text="Damage: White to Dark Red (0 - 290 dmg)\nDexterity: Any"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                app:fontFamily="@font/erasbdfont" />
+
+            <Button
+                android:id="@+id/unarmed_dlight_dair"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/mybutton"
+                android:drawablePadding="2dip"
+                android:fontFamily="@font/erasbdfont"
+                android:paddingLeft="10dip"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="Dlight (Down Light Attack) + Dair (Down Air Attack)"
+                android:textAllCaps="false"
+                android:textColor="@drawable/buttontextcolor"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textView71"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="40dp"
+                android:text="Damage: White to Dark Red (0 - 250 dmg)\nDexterity: Any\n\nBest achieved when stacked on opponent"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                app:fontFamily="@font/erasbdfont" />
+
+
+            <Button
+                android:id="@+id/unarmed_dlight_jmp_gc_nlight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/mybutton"
+                android:drawablePadding="2dip"
+                android:fontFamily="@font/erasbdfont"
+                android:paddingLeft="10dip"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="Dlight (Down Light Attack) + Jump + GC + Nlight (Neutral Light Attack)"
+                android:textAllCaps="false"
+                android:textColor="@drawable/buttontextcolor"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="40dp"
+                android:text="Damage: White to Dark Red (0 - 290 dmg)\nDexterity: Any"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                app:fontFamily="@font/erasbdfont" />
+
+            <Button
+                android:id="@+id/unarmed_dlight_jmp_gc_slight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/mybutton"
+                android:drawablePadding="2dip"
+                android:fontFamily="@font/erasbdfont"
+                android:paddingLeft="10dip"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="Dlight (Down Light Attack) + Jump + GC + Slight (Side Light Attack)"
+                android:textAllCaps="false"
+                android:textColor="@drawable/buttontextcolor"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="40dp"
+                android:text="Damage: White to Dark Red (0 - 280 dmg)\nDexterity: Any"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                app:fontFamily="@font/erasbdfont" />
+
+            <Button
+                android:id="@+id/unarmed_dlight_jmp_gc_nsig"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/mybutton"
+                android:drawablePadding="2dip"
+                android:fontFamily="@font/erasbdfont"
+                android:paddingLeft="10dip"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="Dlight (Down Light Attack) + Jump + GC + Nsig (Neutral Signature)"
+                android:textAllCaps="false"
+                android:textColor="@drawable/buttontextcolor"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="40dp"
+                android:text="Damage: White to Dark Red (0 - 330 dmg)\nDexterity: Any\n\nThe nsig is inputed as fast as possible without charging the signature"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                app:fontFamily="@font/erasbdfont" />
+
+            <Button
+                android:id="@+id/unarmed_dlight_jmp_gc_dsig"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/mybutton"
+                android:drawablePadding="2dip"
+                android:fontFamily="@font/erasbdfont"
+                android:paddingLeft="10dip"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="Dlight (Down Light Attack) + Jump + GC + Dsig (Down Signature)"
+                android:textAllCaps="false"
+                android:textColor="@drawable/buttontextcolor"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="40dp"
+                android:text="Damage: White to Red (0 - 170 dmg)\nDexterity: Any\n\nThe dsig is inputed as fast as possible without charging the signature"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                app:fontFamily="@font/erasbdfont" />
+
+            <Button
+                android:id="@+id/unarmed_dlight_jmp_gc_dlight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/mybutton"
+                android:drawablePadding="2dip"
+                android:fontFamily="@font/erasbdfont"
+                android:paddingLeft="10dip"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="Dlight (Down Light Attack) + Jump + GC + Dlight (Down Light Attack)"
+                android:textAllCaps="false"
+                android:textColor="@drawable/buttontextcolor"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="40dp"
+                android:text="Damage: White to Red (0 - 200 dmg)\nDexterity: Any\n\nThis combo can be followed up with the above combos\n(dlight + recovery/sair/nair/ground pound)"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                app:fontFamily="@font/erasbdfont" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

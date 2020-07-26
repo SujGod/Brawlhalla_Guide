@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ScrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/twitch"
+        android:layout_width="217dp"
+        android:layout_height="134dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/indie"
+        app:srcCompat="@drawable/twitch" />
+
+    <ImageView
+        android:id="@+id/youtube"
+        android:layout_width="175dp"
+        android:layout_height="165dp"
+        android:layout_marginTop="80dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/twitch"
+        app:srcCompat="@drawable/youtube" />
+
+    <TextView
+        android:id="@+id/youtubeText"
+        android:layout_width="358dp"
+        android:layout_height="82dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:gravity="center|center_horizontal"
+        android:text="youtube.com/channel/UCGbqUoHTFKbMKX8t9YxpZ3A"
+        android:textColor="#3F51B5"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/youtube" />
+
+    <TextView
+        android:id="@+id/twitchText"
+        android:layout_width="222dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="120dp"
+        android:gravity="center"
+        android:text="twitch.tv/soojgod"
+        android:textColor="#3F51B5"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/twitch" />
+
+    <TextView
+        android:id="@+id/SoojGames"
+        android:layout_width="252dp"
+        android:layout_height="83dp"
+        android:layout_marginTop="24dp"
+        android:gravity="center_horizontal"
+        android:text="©SoojGames 2020 Rights Reserved"
+        android:textColor="#3F51B5"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/indie"
+        android:layout_width="270dp"
+        android:layout_height="94dp"
+        android:layout_marginTop="40dp"
+        android:gravity="center|center_horizontal"
+        android:text="Indie Game Developer Brawlhalla Enthusiast"
+        android:textColor="#3F51B5"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/SoojGames" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,222 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/darkblue"
+    tools:context="com.example.brawlhallaguide.Fragment1">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:gravity="center"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"
+                android:text="Stats"
+                android:textColor="#FFFFFF"
+                android:textSize="36sp"
+                app:fontFamily="@font/erasbdfont" />
+
+            <SeekBar
+                android:id="@+id/strengthBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:clickable="false"
+                android:max="10"
+                android:minWidth="100dp"
+                android:paddingTop="32dp"
+                android:progress="6"
+                android:progressDrawable="@drawable/seek_bar"
+                android:saveEnabled="true"
+                android:thumb="@drawable/seek_thumb" />
+
+            <TextView
+                android:id="@+id/strengthBarText"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:gravity="left"
+                android:paddingLeft="24dp"
+                android:paddingTop="12dp"
+                android:text="Strength: 6"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp"
+                app:fontFamily="@font/erasbdfont" />
+
+            <SeekBar
+                android:id="@+id/dexterityBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:clickable="false"
+                android:max="10"
+                android:minWidth="100dp"
+                android:paddingTop="16dp"
+                android:progress="7"
+                android:progressDrawable="@drawable/seek_bar"
+                android:thumb="@drawable/seek_thumb" />
+
+            <TextView
+                android:id="@+id/dexterityBarText"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:gravity="left"
+                android:paddingLeft="24dp"
+                android:paddingTop="12dp"
+                android:text="Dexterity: 7"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp"
+                app:fontFamily="@font/erasbdfont" />
+
+            <SeekBar
+                android:id="@+id/defenseBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:clickable="false"
+                android:max="10"
+                android:minWidth="100dp"
+                android:paddingTop="16dp"
+                android:progress="3"
+                android:progressDrawable="@drawable/seek_bar"
+                android:thumb="@drawable/seek_thumb" />
+
+            <TextView
+                android:id="@+id/defenseBarText"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:gravity="left"
+                android:paddingLeft="24dp"
+                android:paddingTop="12dp"
+                android:text="Defense: 3"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp"
+                app:fontFamily="@font/erasbdfont" />
+
+            <SeekBar
+                android:id="@+id/speedBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:clickable="false"
+                android:max="10"
+                android:minWidth="100dp"
+                android:paddingTop="16dp"
+                android:progress="6"
+                android:progressDrawable="@drawable/seek_bar"
+                android:thumb="@drawable/seek_thumb" />
+
+            <TextView
+                android:id="@+id/speedBarText"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:gravity="left"
+                android:paddingLeft="24dp"
+                android:paddingTop="12dp"
+                android:text="Speed: 6"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp"
+                app:fontFamily="@font/erasbdfont" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ToggleButton
+                    android:id="@+id/strengthToggle"
+                    android:layout_width="128dp"
+                    android:layout_height="76dp"
+                    android:layout_marginStart="48dp"
+                    android:layout_marginLeft="48dp"
+                    android:layout_marginTop="48dp"
+                    android:background="@drawable/mybutton"
+                    android:checked="false"
+                    android:fontFamily="@font/erasbdfont"
+                    android:gravity="center"
+                    android:padding="15dp"
+                    android:text="Strength Stance"
+                    android:textColor="@drawable/toggle_drawable_stance"
+                    android:textOff="Strength Stance"
+                    android:textOn="Strength Stance"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ToggleButton
+                    android:id="@+id/dexterityToggle"
+                    android:layout_width="131dp"
+                    android:layout_height="88dp"
+                    android:layout_marginStart="48dp"
+                    android:layout_marginLeft="48dp"
+                    android:layout_marginTop="48dp"
+                    android:layout_marginBottom="48dp"
+                    android:background="@drawable/mybutton"
+                    android:checked="false"
+                    android:fontFamily="@font/erasbdfont"
+                    android:gravity="center"
+                    android:padding="15dp"
+                    android:text="ToggleButton"
+                    android:textColor="@drawable/toggle_drawable_stance"
+                    android:textOff="Dexterity Stance"
+                    android:textOn="Dexterity Stance"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/strengthToggle" />
+
+                <ToggleButton
+                    android:id="@+id/defenseToggle"
+                    android:layout_width="128dp"
+                    android:layout_height="76dp"
+                    android:layout_marginTop="48dp"
+                    android:layout_marginEnd="48dp"
+                    android:layout_marginRight="48dp"
+                    android:background="@drawable/mybutton"
+                    android:checked="false"
+                    android:fontFamily="@font/erasbdfont"
+                    android:gravity="center"
+                    android:padding="15dp"
+                    android:text="Strength Stance"
+                    android:textColor="@drawable/toggle_drawable_stance"
+                    android:textOff="Defense Stance"
+                    android:textOn="Defense Stance"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ToggleButton
+                    android:id="@+id/speedToggle"
+                    android:layout_width="131dp"
+                    android:layout_height="88dp"
+                    android:layout_marginTop="48dp"
+                    android:layout_marginEnd="48dp"
+                    android:layout_marginRight="48dp"
+                    android:layout_marginBottom="48dp"
+                    android:background="@drawable/mybutton"
+                    android:checked="false"
+                    android:fontFamily="@font/erasbdfont"
+                    android:gravity="center"
+                    android:padding="15dp"
+                    android:text="ToggleButton"
+                    android:textColor="@drawable/toggle_drawable_stance"
+                    android:textOff="Speed Stance"
+                    android:textOn="Speed Stance"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/defenseToggle" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

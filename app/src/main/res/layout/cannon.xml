@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background = "@drawable/darkblue"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="16dp"
+        android:overScrollMode = "never">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:gravity="center"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"
+                android:text="Cannon Combos"
+                android:textColor="#FFFFFF"
+                android:textSize="36sp"
+                app:fontFamily="@font/erasbdfont" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="163dp"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"
+                app:srcCompat="@drawable/cannon" />
+
+            <Button
+                android:id="@+id/cannon_dlight_sair"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/mybutton"
+                android:drawablePadding="2dip"
+                android:fontFamily="@font/erasbdfont"
+                android:paddingLeft="10dip"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="Dlight (Down Light Attack) + Sair (Side Air Attack)"
+                android:textAllCaps="false"
+                android:textColor="@drawable/buttontextcolor"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="40dp"
+                android:text="Damage: White to Light Orange (0 - 80 dmg)\nDexterity: Any"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                app:fontFamily="@font/erasbdfont" />
+
+            <Button
+                android:id="@+id/cannon_dlight_dair"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/mybutton"
+                android:drawablePadding="2dip"
+                android:fontFamily="@font/erasbdfont"
+                android:paddingLeft="10dip"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="Dlight (Down Light Attack) + Dair (Down Air Attack)"
+                android:textAllCaps="false"
+                android:textColor="@drawable/buttontextcolor"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="40dp"
+                android:text="Damage: All Health/Damage (0 - 700 dmg)\nDexterity: Any"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                app:fontFamily="@font/erasbdfont" />
+
+            <Button
+                android:id="@+id/cannon_dlight_nair"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/mybutton"
+                android:drawablePadding="2dip"
+                android:fontFamily="@font/erasbdfont"
+                android:paddingLeft="10dip"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="Dlight (Down Light Attack) + Nair (Neutral Air Attack)"
+                android:textAllCaps="false"
+                android:textColor="@drawable/buttontextcolor"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="40dp"
+                android:text="Damage: Red to Dark Red (110 - 700 dmg)\nDexterity: Any\n\nBest used as a kill option"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                app:fontFamily="@font/erasbdfont" />
+
+            <Button
+                android:id="@+id/cannon_sair_slight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/mybutton"
+                android:drawablePadding="2dip"
+                android:fontFamily="@font/erasbdfont"
+                android:paddingLeft="10dip"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="Sair (Side Air Attack) + Slight (Side Light Attack)"
+                android:textAllCaps="false"
+                android:textColor="@drawable/buttontextcolor"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="40dp"
+                android:text="Damage: Yellow to Light Orange (50 - 70 dmg)\nDexterity: Any"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                app:fontFamily="@font/erasbdfont" />
+
+            <Button
+                android:id="@+id/cannon_slight_sair"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/mybutton"
+                android:drawablePadding="2dip"
+                android:fontFamily="@font/erasbdfont"
+                android:paddingLeft="10dip"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="Slight (Side Light Attack) + Sair (Side Air Attack)"
+                android:textAllCaps="false"
+                android:textColor="@drawable/buttontextcolor"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="40dp"
+                android:text="Damage: All Health/Damage (0 -  700 dmg)\nDexterity: Any\n\nNot a true combo but a good string that can be hit within as low as a dodge window of 2 frames"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                app:fontFamily="@font/erasbdfont" />
+
+            <Button
+                android:id="@+id/cannon_slight_dair"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/mybutton"
+                android:drawablePadding="2dip"
+                android:fontFamily="@font/erasbdfont"
+                android:paddingLeft="10dip"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="Slight (Side Light Attack) + Dair (Down Air Attack)"
+                android:textAllCaps="false"
+                android:textColor="@drawable/buttontextcolor"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="40dp"
+                android:text="Damage: All Health/Damage (0 -  700 dmg)\nDexterity: Any\n\nNot a true combo but a good string that can be hit within as low as a dodge window of 3 frames"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                app:fontFamily="@font/erasbdfont" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
